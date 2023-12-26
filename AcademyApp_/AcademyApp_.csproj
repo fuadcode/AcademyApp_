@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AcademyApp_.Business\AcademyApp_.Business.csproj" />
+    <ProjectReference Include="..\AcademyApp_.Domain\AcademyApp_.Domain.csproj" />
+    <ProjectReference Include="..\AcademyApp_.Helpers\AcademyApp_.Helpers.csproj" />
+  </ItemGroup>
+
+</Project>
